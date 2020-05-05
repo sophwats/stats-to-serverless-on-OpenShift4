@@ -1,12 +1,15 @@
 --- 
-name: "TITLE OF WORKSHOP HERE"
+name: "From Statistics to Serverless: Machine learning on OpenShift "
 authors: 
   - 
-    name: "Shadowman1"
-    email: 
+    name: "Sophie Watson"
+    email: "sophie@redhat.com"
   - 
-    name: "Shadowman2"
-    email: 
+    name: "William Benton"
+    email: "willb@redhat.com"
+  - 
+    name: "Marius Bogoevici"
+    email: "marius@redhat.com"
 duration: "120 minutes"
 keywords: 
   - OpenShift
@@ -15,4 +18,8 @@ keywords:
   - Jupyter
   - Python
   - workflow
-repo: "link to githubrepo here"
+  - pipelines
+  - tekton
+  - serverless
+  - fraud
+repo: "https://github.com/sophwats/stats-to-serverless-on-OpenShift4"
