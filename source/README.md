@@ -1,6 +1,7 @@
 # fraud-notebooks
 
-These notebooks accompany our workshop _From Statistics to Serverless:  Intelligent Applications on OpenShift 4_.  Our slide deck from delivering this workshop at Red Hat Summit is available [as a PDF](slides.pdf) or [as a movie](slides.m4v).
+These notebooks accompany our workshop _From Statistics to Serverless:  Intelligent Applications on OpenShift 4_. 
+
 
 In order to build and run a model service, you'll need an OpenShift cluster, but you can experiment with the notebooks on your own time.  Here's how:
 
