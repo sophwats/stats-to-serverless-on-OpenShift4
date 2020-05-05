@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "==1.18.1"
+pandas = "==1.0.1"
+altair = "==4.0.0"
+scikit-learn = "==0.22.1"
+cloudpickle = "==1.2.1"
+pyarrow = "*"
+fastparquet = "*"
+scipy = "*"
+vega = "*"
+jupyter = "*"
+
+
+[requires]
+python_version = "3.7"
