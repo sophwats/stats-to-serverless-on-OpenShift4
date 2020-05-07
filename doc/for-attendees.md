@@ -9,7 +9,7 @@ This workshop is designed to show application developers how to incorporate mach
  
 ## Background and workshop flow
 
-The main structure of this workshop is given by [the notebooks](../source). If you havent used Jupyter ntoebooks before, make sure you spend time woking through notebook [00-getting-started](../source/00-getting-started.ipynb). 
+The main structure of this workshop is given by [the notebooks](../source). If you havent used Jupyter ntoebooks before, make sure you spend time woking through notebook `00-getting-started.ipynb`. 
 
 The notebooks you'll work through today are numbered in order and (for the most part) you'll need to run them in order. Here's how to step through the notebooks:
 
@@ -24,6 +24,6 @@ We have a `logistic regression model` and a `random forest model` for you to cho
 
 Try some different options! Did you notice anything improve or worsen your model's performance?
 
-Next, you will see how to use OpenShift Pipelines to build a RESTful service for making predictions, using the model you just trained. Openshift Pipelines are used to give us a serverless service you can make predictions against, in this case using notebook [04-sevices](../source/04-services.ipynb). You can use prometheus to visualise model metrics and observe data drift.
+Next, you will see how to use OpenShift Pipelines to build a RESTful service for making predictions, using the model you just trained. Openshift Pipelines are used to give us a serverless service you can make predictions against, in this case using notebook `04-sevices.ipynb`. You can use Prometheus to visualise model metrics and observe data drift.
 
 Enjoy!
