@@ -1,11 +1,6 @@
 #!/bin/bash
 
-export RHPDS_USER_COUNT=${RHPDS_USER_COUNT:-1}
-export RHPDS_USER=
-export RHPDS_DOMAIN=example.opentlc.com
-export RHPDS_GUID=
-export RHPDS_PASSWORD=
-
+export RHPDS_USER_COUNT=${RHPDS_USER_COUNT:-75}
 
 
 if [ x$RHPDS_GUID == 'x' ]; then
