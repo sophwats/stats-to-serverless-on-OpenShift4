@@ -1,11 +1,4 @@
 ---
-- name: "Create Open Data Hub subscription in project {{ user_project }}"
-  k8s:
-    state: "{{ state }}"
-    definition: "{{ lookup('template', 'open-data-hub/subscription.yml.j2') }}"
-  vars:
-    namespace: "{{ user_project }}"
-
 - name: "Create ODH Config Map configuration in {{ user_project }}"
   k8s:
     state: "{{ state }}"

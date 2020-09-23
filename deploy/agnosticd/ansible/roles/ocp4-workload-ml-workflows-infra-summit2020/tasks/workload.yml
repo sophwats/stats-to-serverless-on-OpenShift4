@@ -1,5 +1,4 @@
 ---
-
 - name: Installing Storage
   import_tasks: ./storage.yml
   become: false
@@ -14,6 +13,11 @@
   import_tasks: ./serverless.yml
   become: false
   when: ACTION == "create" or ACTION == "provision"
+
+- name: Installing Open Data Hub Subscription
+  import_tasks: ./odh_subscription.yml
+  become: false
+  when: (ACTION == "create" or ACTION == "provision") and install_open_data_hub
 
 - include_tasks: per_user_workload.yml
   loop: "{{ range(user_count_start | int, (user_count_start | int) + (user_count | int)) | list }}"
