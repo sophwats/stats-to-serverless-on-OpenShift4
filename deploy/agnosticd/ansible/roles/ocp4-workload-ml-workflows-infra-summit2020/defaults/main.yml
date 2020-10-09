@@ -35,7 +35,7 @@ user_project: user
 workload_destroy: false
 
 och_expected_crds:
-- opendatahubs.opendatahub.io
+- kfdefs.kfdef.apps.kubeflow.org
 
 knative_expected_crds:
 - knativeservings.operator.knative.dev

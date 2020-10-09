@@ -4,6 +4,8 @@ metadata:
   # This a hack until we can include additional notebooks in the singleuser profile
   name: "{{ workshop_jupyter_notebook_imagestream_name }}"
   namespace: "{{ namespace }}"
+  labels:
+    opendatahub.io/notebook-image: 'true'
 spec:
   lookupPolicy:
     local: false
